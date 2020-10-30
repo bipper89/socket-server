@@ -8,6 +8,8 @@ export class IndexRoutes {
         this.routes();
     }
 
+
+
     routes() {
         this.router.get('/', (req:Request, res: Response) => res.send('Hello World'));
         this.router.post('/', (req: Request, res: Response) => {
